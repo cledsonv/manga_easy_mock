@@ -1,0 +1,41 @@
+name: manga_easy_teste
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  manga_easy_perfil:
+    path: ../manga_easy_profile
+  manga_easy_about:
+    path: ../manga_easy_about
+  manga_easy_recommendations:
+    path: ../manga_easy_recommendations
+  manga_easy_themes:
+    git:
+      url: https://github.com/manga-easy/manga_easy_themes.git
+      ref: 1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+
+
