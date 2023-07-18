@@ -13,22 +13,29 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
-  manga_easy_perfil:
-    path: ../manga_easy_profile
-  manga_easy_about:
-    path: ../manga_easy_about
-  manga_easy_recommendations:
-    path: ../manga_easy_recommendations
+  # manga_easy_profile:
+  #   path: ../manga_easy_profile
+  # manga_easy_about:
+  #   path: ../manga_easy_about
+  # manga_easy_recommendations:
+  #   path: ../manga_easy_recommendations
+  # manga_easy_change_logs:
+  #   path: ../manga_easy_change_logs
+  manga_easy_downloads:
+    path: ../manga_easy_downloads
   manga_easy_themes:
     git:
       url: https://github.com/manga-easy/manga_easy_themes.git
       ref: 1.0.2
-  client_driver:
-    git:
-      url: https://github.com/manga-easy/manga_easy_client_driver.git
-      ref: v1.1.0
+  # client_driver:
+  #   git:
+  #     url: https://github.com/manga-easy/manga_easy_client_driver.git
+  #     ref: v1.1.1
+  persistent_database:
+    path: ../lib_persistent_database
   get_it: ^7.2.0
-
+  intl: ^0.18.1
+  permission_handler: ^10.4.3
 
 dev_dependencies:
   flutter_test:
